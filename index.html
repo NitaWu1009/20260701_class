@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PG島暑期親子潛水遊 - 台灣菲海樂潛 × PG島蟹老闆潛水度假村</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- Font Awesome 圖標 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        /* 根據需求定義專屬渡假風色彩 */
+        :root {
+            --color-ocean-blue: #0A3663;     /* 深邃海洋藍 */
+            --color-sand-white: #F9F6F0;     /* 細沙米白色 */
+            --color-coral-orange: #FF6F61;   /* 珊瑚亮橘色 */
+            --color-deep-dark: #1E293B;
+        }
+    </style>
+</head>
+<body class="bg-[#F9F6F0] text-[#1E293B] font-sans antialiased">
+
+    <!-- 01. 頂部導覽列 -->
+    <nav class="sticky top-0 z-50 bg-[#0A3663] text-white shadow-md backdrop-blur-md bg-opacity-95">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <!-- Logo 區 -->
+                <div class="flex-shrink-0 flex items-center space-x-2">
+                    <i class="fa-solid fa-mask-snorkel text-[#FF6F61] text-2xl"></i>
+                    <span class="font-bold text-lg tracking-wider">台灣菲海樂潛 × PG島蟹老闆</span>
+                </div>
+                <!-- 網頁選單 (桌機版) -->
+                <div class="hidden md:flex space-x-6 text-sm font-medium">
+                    <a href="#offer" class="hover:text-[#FF6F61] transition">超值方案</a>
+                    <a href="#traffic" class="hover:text-[#FF6F61] transition">一條龍交通</a>
+                    <a href="#gallery" class="hover:text-[#FF6F61] transition">渡假村實拍</a>
+                    <a href="#reviews" class="hover:text-[#FF6F61] transition">家長好評</a>
+                    <a href="#faq" class="hover:text-[#FF6F61] transition">常見解答</a>
+                </div>
+                <!-- 右側 CTA 按鈕 -->
+                <div>
+                    <a href="https://line.me" target="_blank" class="bg-[#FF6F61] hover:bg-[#e55e51] text-white px-4 py-2 rounded-full text-sm font-bold shadow-md transition flex items-center space-x-1">
+                        <i class="fa-brands fa-line text-lg"></i>
+                        <span>立即 LINE 搶訂</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 02. 頂級英雄區塊 -->
+    <header class="relative bg-[#0A3663] text-white overflow-hidden py-20 lg:py-32">
+        <!-- 裝飾背景遮罩 (實務上可換成您的精美海底大圖) -->
+        <div class="absolute inset-0 opacity-10 bg-[radial-gradient(#fff_1px,transparent_1px)] [background-size:16px_16px]"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <!-- 左側文案 -->
+                <div class="space-y-6 text-center lg:text-left">
+                    <span class="inline-block bg-[#FF6F61] text-white text-xs font-extrabold tracking-widest uppercase px-3 py-1 rounded-full shadow-sm">
+                        2026 暑期檔期限定．隨時出發
+                    </span>
+                    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-black leading-tight">
+                        暑假帶小孩出國玩潛水，<br class="hidden sm:inline">1大1小每人只要 <span class="text-[#FF6F61] underline decoration-wavy decoration-2">$12,999</span> 元！
+                    </h1>
+                    <p class="text-lg text-slate-200 font-normal leading-relaxed max-w-xl mx-auto lg:mx-0">
+                        告別轉車轉船大崩潰！馬尼拉落地「專車專船一條龍」直達島上度假村。含海景住宿、3次專業潛水與中文教練貼心帶領，孩子看海龜、爸媽享清靜！
+                    </p>
+                    <div class="bg-blue-950/40 border border-blue-800 p-4 rounded-xl max-w-md mx-auto lg:mx-0">
+                        <p class="text-sm font-bold text-yellow-300">
+                            🔥 限時激推雙重禮：
+                        </p>
+                        <p class="text-sm text-slate-200 mt-1">
+                            7月底前報名送市價 $500 護髮油！帶小朋友同行，全家海景住宿再打 <span class="text-[#FF6F61] font-bold">9折</span>！
+                        </p>
+                    </div>
+                    <div class="pt-2">
+                        <a href="https://line.me" target="_blank" class="inline-flex items-center space-x-2 bg-[#FF6F61] hover:bg-[#e55e51] text-white font-extrabold text-lg px-8 py-4 rounded-full shadow-xl hover:scale-105 transition transform duration-200">
+                            <i class="fa-brands fa-line text-2xl"></i>
+                            <span>免費索取 12,999 元親子行程企劃書</span>
+                        </a>
+                    </div>
+                </div>
+                <!-- 右側圖片意象 -->
+                <div class="relative max-w-md mx-auto lg:max-w-none">
+                    <div class="aspect-video w-full rounded-2xl bg-slate-800 shadow-2xl overflow-hidden border-4 border-white/10 flex items-center justify-content">
+                        <!-- 示意區塊：此處在真實網頁直接放全家坐在快艇上的陽光實拍圖 -->
+                        <div class="m-auto text-center p-8">
+                            <i class="fa-solid fa-ship text-6xl text-slate-500 mb-4"></i>
+                            <p class="text-sm text-slate-400">【主視覺推薦圖片放置區】<br>全家人坐在專屬快艇上開心大笑的海島大圖</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- 03. 痛點共鳴與問題喚醒區 -->
+    <section class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-3xl mx-auto mb-12">
+            <h2 class="text-2xl sm:text-3xl font-black tracking-tight text-[#0A3663]">
+                想帶孩子出國看世界，但一想到這些麻煩你就退縮了嗎？
+            </h2>
+            <p class="text-slate-500 mt-2">自由行不該演變成家長的體力大考驗</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
+                <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center text-red-500 text-xl font-bold">
+                    <i class="fa-solid fa-face-dashed-nose"></i>
+                </div>
+                <h3 class="text-lg font-bold">崩潰的移動日</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    帶小孩大包小包，出了馬尼拉機場還要狼狽查地圖、跟當地計程車司機瘋狂喊價，去到碼頭還要排隊擠螃蟹船，自由行搞得比上班還要累。
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
+                <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center text-red-500 text-xl font-bold">
+                    <i class="fa-solid fa-comment-dollar"></i>
+                </div>
+                <h3 class="text-lg font-bold">高昂的暑期團費</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    上網隨便查坊間的海外海島親子旅行團，動輒每人四、五萬。一家四口報名下來開銷破十幾萬，荷包壓力大到下不了手。
+                </p>
+            </div>
+            <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 space-y-4">
+                <div class="w-12 h-12 rounded-full bg-red-50 flex items-center justify-center text-red-500 text-xl font-bold">
+                    <i class="fa-solid fa-life-ring"></i>
+                </div>
+                <h3 class="text-lg font-bold">安全與語言焦慮</h3>
+                <p class="text-slate-600 text-sm leading-relaxed">
+                    想讓孩子體驗潛水探索生態，又怕海外潛店裝備老舊、沒有兒童安全尺寸。外籍潛導全程講英文，怎麼放心把怕水的小孩交給他？
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 04. 完美解決方案引入 -->
+    <section class="bg-white py-16 border-y border-slate-100">
+        <div class="max-w-5xl mx-auto px-4 text-center space-y-6">
+            <h2 class="text-2xl sm:text-3xl font-black text-[#0A3663]">
+                今年暑假，您可以過得極度優雅！
+            </h2>
+            <p class="text-xl font-bold text-[#FF6F61]">
+                台菲股東直營 ✕ 砍掉中介抽成 ✕ 萬元出頭親民天花板
+            </p>
+            <p class="text-slate-600 max-w-3xl mx-auto leading-relaxed">
+                我們是 <strong>台灣菲海樂潛</strong> 與 <strong>PG島蟹老闆度假村</strong>。因為本身就是內部深度綁定的股東經營關係，我們直接砍掉跨國轉乘的所有交通斷點，更把價格打到全網最震撼一手價：<strong>5天4夜 1大1小同行，每人只要 12,999 元！</strong> 台灣實體窗口諮詢簽約、海外自營基地尊榮接待，給您百分之百的安心承諾。
+            </p>
+            <div class="pt-4">
+                <i class="fa-solid fa-chevron-down text-[#0A3663] text-2xl animate-bounce"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- 05. 核心五大賣點區 -->
+    <section id="traffic" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-16">
+        <div class="text-center max-w-2xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-black text-[#0A3663]">為什麼全台愛海爸媽都選擇我們？</h2>
+            <p class="text-slate-500 mt-2">給您大人徹底放空、小孩安全蛻變的完美親子假</p>
+        </div>
+
+        <!-- 賣點 1 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="aspect-video bg-slate-200 rounded-2xl flex items-center justify-center shadow-inner">
+                    <p class="text-slate-400 text-sm">【實拍圖放置區：明碼實價12999對話截圖或宣傳海報】</p>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <div class="inline-block bg-blue-100 text-[#0A3663] text-xs font-bold px-3 py-1 rounded-md">BENEFIT 01</div>
+                <h3 class="text-2xl font-black">全網震撼超高 CP 值，拒絕二手抽成</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    別再當旅行社的冤大頭了！台菲直營一手報價，每人 12,999 元直接包含跨國保姆車、快艇接送、海景住宿與 3 次專業潛水。預算大省，全家出國完全沒負擔！
+                </p>
+            </div>
+        </div>
+
+        <!-- 賣點 2 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:flex-row-reverse">
+            <div class="lg:order-2">
+                <div class="aspect-video bg-slate-200 rounded-2xl flex items-center justify-center shadow-inner">
+                    <p class="text-slate-400 text-sm">【實拍圖放置區：馬尼拉出境保姆車與快艇接送畫面】</p>
+                </div>
+            </div>
+            <div class="space-y-4 lg:order-1">
+                <div class="inline-block bg-blue-100 text-[#0A3663] text-xs font-bold px-3 py-1 rounded-md">BENEFIT 02</div>
+                <h3 class="text-2xl font-black">海陸交通無縫對接，帶娃移動也能當貴婦</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    出機場就有專屬保姆車無縫接駁，直達自營專屬碼頭登船上島。免去路上跟人排隊、抗衡當地黑心司機的痛苦，給家庭最極致的移動尊榮感。
+                </p>
+            </div>
+        </div>
+
+        <!-- 賣點 3 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+            <div>
+                <div class="aspect-video bg-slate-200 rounded-2xl flex items-center justify-center shadow-inner">
+                    <p class="text-slate-400 text-sm">【實拍圖放置區：度假村乾淨泳池與全新兒童防寒衣裝備】</p>
+                </div>
+            </div>
+            <div class="space-y-4">
+                <div class="inline-block bg-blue-100 text-[#0A3663] text-xs font-bold px-3 py-1 rounded-md">BENEFIT 03</div>
+                <h3 class="text-2xl font-black">兒童專屬安全高規格，爸媽放空超安心</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    度假村基地自帶專屬兒童游泳池，並早早備妥全新、合適的兒童尺寸防寒衣物與全套輕重裝備。不讓孩子穿寬大不適的二手衣，玩得安全又合身。
+                </p>
+            </div>
+        </div>
+
+        <!-- 賣點 4 -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center lg:flex-row-reverse">
+            <div class="lg:order-2">
+                <div class="aspect-video bg-slate-200 rounded-2xl flex items-center justify-center shadow-inner">
+                    <p class="text-slate-400 text-sm">【實拍圖放置區：台灣教練溫柔引導小朋友水下側拍】</p>
+                </div>
+            </div>
+            <div class="space-y-4 lg:order-1">
+                <div class="inline-block bg-blue-100 text-[#0A3663] text-xs font-bold px-3 py-1 rounded-md">BENEFIT 04</div>
+                <h3 class="text-2xl font-black">全華語中文友善溝通，專業教練溫柔陪伴</h3>
+                <p class="text-slate-600 leading-relaxed">
+                    島上全程由台灣與當地華語專業教練高規格配比帶領。不用擔心小孩聽不懂英文指令而在水裡慌張。教練用好玩、耐心的遊戲化方式教學，比爸媽還細心。
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 中段 CTA 按鈕 -->
+    <div class="bg-[#0A3663] py-12 text-center text-white">
+        <p class="text-xl font-bold mb-4">別再讓孩子的珍貴暑假，浪費在國內嚴重的大塞車裡！</p>
+        <a href="https://line.me" target="_blank" class="inline-flex items-center space-x-2 bg-[#FF6F61] hover:bg-[#e55e51] text-white font-extrabold text-base px-6 py-3 rounded-full shadow-lg transition transform hover:scale-105">
+            <i class="fa-brands fa-line text-xl"></i>
+            <span>加入 LINE 諮詢專人，規劃全家專屬親子潛旅</span>
+        </a>
+    </div>
+
+    <!-- 06. 社會證明區 -->
+    <section id="gallery" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center max-w-2xl mx-auto mb-12">
+            <h2 class="text-2xl sm:text-3xl font-black text-[#0A3663]">鐵證如山！來看現場真實開箱</h2>
+            <p class="text-slate-500 mt-2">100% 現場實拍，絕不用浮誇網美修圖欺騙家長</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
+                <div class="aspect-square bg-slate-300 rounded-lg mb-2 flex items-center justify-center text-slate-500 text-xs">【家長LINE好評截圖牆】</div>
+                <p class="text-xs font-bold text-center text-slate-700">家長感恩反饋群組截圖</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
+                <div class="aspect-square bg-slate-300 rounded-lg mb-2 flex items-center justify-center text-slate-500 text-xs">【小朋友與野生海龜同框照】</div>
+                <p class="text-xs font-bold text-center text-slate-700">孩子克服怕水、解鎖水下萌照</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
+                <div class="aspect-square bg-slate-300 rounded-lg mb-2 flex items-center justify-center text-slate-500 text-xs">【度假村海景房與泳池實拍】</div>
+                <p class="text-xs font-bold text-center text-slate-700">自營蟹老闆度假村舒適環境</p>
+            </div>
+            <div class="bg-white p-2 rounded-xl shadow-sm border border-slate-100">
+                <div class="aspect-square bg-slate-300 rounded-lg mb-2 flex items-center justify-center text-slate-500 text-xs">【台灣實體諮詢門市照片】</div>
+                <p class="text-xs font-bold text-center text-slate-700">台灣菲海樂潛實體窗口店面</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 07. 商品詳情區與 FAQ -->
+    <section id="faq" class="bg-white py-16 border-y border-slate-100">
+        <div class="max-w-4xl mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-2xl sm:text-3xl font-black text-[#0A3663]">商品規格詳情 & 常見疑慮正面對決</h2>
+                <p class="text-slate-500 mt-2">資訊透明公開，消除家長心中的所有疑慮</p>
+            </div>
+
+            <!-- 商品規格 -->
+            <div class="bg-[#F9F6F0] p-6 rounded-2xl mb-10 space-y-3">
+                <h3 class="text-lg font-bold text-[#0A3663] flex items-center space-x-2">
+                    <i class="fa-solid fa-circle-info"></i>
+                    <span>【5天4夜親子套裝行程基本規格】</span>
+                </h3>
+                <ul class="text-sm text-slate-600 space-y-2 list-disc pl-5">
+                    <li><strong>成團人數：</strong>兩人成行！專屬客製化私房小團，暑假時間任選，隨時說走就走。</li>
+                    <li><strong>費用內含：</strong>馬尼拉機場往返全程包車包船一條龍接送、自營蟹老闆度假村精景住宿4晚、3次專業潛水/體驗潛水行程、全套輕重裝備租借租用、全程旅遊保險、中台雙股東窗口全天候緊急支援。</li>
+                </ul>
+            </div>
+
+            <!-- FAQ 答客問 -->
+            <div class="space-y-6">
+                <div class="border-b border-slate-100 pb-4">
+                    <h4 class="font-bold text-base text-[#0A3663] flex items-start space-x-2">
+                        <span class="bg-[#FF6F61] text-white text-xs px-2 py-0.5 rounded-sm mt-0.5">Q1</span>
+                        <span>每人 12,999 元這麼便宜，到菲律賓當地會不會被逼購物或有其他隱藏消費？</span>
+                    </h4>
+                    <p class="text-sm text-slate-600 mt-2 pl-8">
+                        完全不會！我們是台菲股東自營的專業潛水度假村，這是一手純直營價，絕非傳統旅行社拿來充數的低價購物團。12,999 元明碼實價包含往返交通船車、海景房住宿與3次下水潛水，行程完全透明。
+                    </p>
+                </div>
+                <div class="border-b border-slate-100 pb-4">
+                    <h4 class="font-bold text-base text-[#0A3663] flex items-start space-x-2">
+                        <span class="bg-[#FF6F61] text-white text-xs px-2 py-0.5 rounded-sm mt-0.5">Q2</span>
+                        <span>我小孩完全不會游泳、而且有點怕水，這趟行程真的適合他玩嗎？</span>
+                    </h4>
+                    <p class="text-sm text-slate-600 mt-2 pl-8">
+                        請家長完全放心！渡假村內自備寬敞安全的兒童練習泳池。我們的中文教練會採取一對一的方式，在極度安全的泳池環境裡，用趣味遊戲帶領孩子先認識裝備、適應水性。安全永遠是我們的最高指導原則，絕對不會強迫孩子推下海。
+                    </p>
+                </div>
+                <div>
+                    <h4 class="font-bold text-base text-[#0A3663] flex items-start space-x-2">
+                        <span class="bg-[#FF6F61] text-white text-xs px-2 py-0.5 rounded-sm mt-0.5">Q3</span>
+                        <span>聽說菲律賓當地的海陸交通非常亂，帶著大包小包的小孩真的方便嗎？</span>
+                    </h4>
+                    <p class="text-sm text-slate-600 mt-2 pl-8">
+                        這正是我們「自營一條龍」的核心價值所在！您不需要自己在路邊攔黑心計程車、也不用去碼頭跟不認識的遊客推擠排隊。從您落地馬尼拉機場出境那一刻起，我們專屬的冷氣保姆保車就已經在等您，直接送到自營專屬專用碼頭，再搭乘度假村快艇快速上島。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 08. 價格與方案區 -->
+    <section id="offer" class="py-16 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="max-w-md mx-auto bg-white border-2 border-[#FF6F61] rounded-3xl shadow-xl overflow-hidden text-center transform hover:scale-103 transition duration-300">
+            <div class="bg-[#0A3663] text-white py-6">
+                <h3 class="text-xl font-black tracking-wide">🏆 暑期親子潛水 FUN 放假趣</h3>
+                <p class="text-xs text-slate-300 mt-1">5天4夜．海陸全包一條龍完美方案</p>
+            </div>
+            <div class="p-8 space-y-6">
+                <p class="text-slate-500 text-sm">台菲股東直營震撼一手超值價</p>
+                <div class="space-y-1">
+                    <p class="text-xs text-slate-400 line-through">市面海島親子團原價 $45,000/人</p>
+                    <p class="text-4xl font-black text-[#FF6F61] tracking-tight">
+                        每人只要 <span class="text-5xl">$12,999</span> 元起
+                    </p>
+                    <p class="text-xs font-semibold text-emerald-600">（ 1大1小同行即可成團出發 ）</p>
+                </div>
+                <div class="border-t border-dashed border-slate-200 pt-4 text-left space-y-3 text-sm text-slate-600">
+                    <p class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i> <span>馬尼拉往返包車包船全包接送</span></p>
+                    <p class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i> <span>自營蟹老闆度假村海景優質住宿 4 晚</span></p>
+                    <p class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i> <span>3 次成人專業潛水 / 兒童體驗潛水與浮潛行程</span></p>
+                    <p class="flex items-center space-x-2"><i class="fa-solid fa-check text-emerald-500"></i> <span>全套潛水高端輕重裝備租借與安全保險</span></p>
+                </div>
+                <!-- 暑期好禮回饋 -->
+                <div class="bg-amber-50 border border-amber-200 text-amber-800 text-xs font-bold rounded-xl p-3 text-left space-y-1">
+                    <p>🎁 2026年 7 月底前報名，立即獲贈海灘專用護髮油一份（市價 $500）</p>
+                    <p>🎁 凡帶小朋友同行，整趟海景住宿費用現場再享 <span class="text-[#FF6F61]">9 折</span> 大大優惠！</p>
+                </div>
+                <div>
+                    <a href="https://line.me" target="_blank" class="block w-full bg-[#FF6F61] hover:bg-[#e55e51] text-white font-black text-lg py-4 rounded-xl shadow-lg transition">
+                        <i class="fa-brands fa-line mr-1"></i> 立即加 LINE，搶訂暑期 12,999 早鳥
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 09. 最終CTA區 -->
+    <footer class="bg-[#0A3663] text-white py-16 text-center relative overflow-hidden">
+        <div class="max-w-4xl mx-auto px-4 space-y-6 relative z-10">
+            <h2 class="text-2xl sm:text-3xl font-black">給孩子一個充滿海龜與尼莫的勇敢暑假！</h2>
+            <p class="text-slate-300 max-w-2xl mx-auto text-sm sm:text-base leading-relaxed">
+                台灣實體門市簽約出發，菲律賓頂級自營基地尊榮享受。用萬元出頭等級的震撼價格，送給全家人一趟完全不用燒腦、真正能優雅放空的海島渡假。安全與品質，台菲兩地股東全程為您保駕護航！
+            </p>
+            <p class="text-[#FF6F61] font-bold text-sm tracking-widest">⚠️ 暑假熱門檔期度假村房況與潛位極其有限，名額倒數中！</p>
+            <div class="pt-2">
+                <a href="https://line.me" target="_blank" class="inline-flex items-center space-x-2 bg-emerald-500 hover:bg-emerald-600 text-white font-extrabold text-base px-8 py-4 rounded-full shadow-xl transition transform hover:scale-105">
+                    <i class="fa-solid fa-comments text-xl"></i>
+                    <span>點我一鍵 LINE 諮詢，免費規劃全家專屬潛旅</span>
+                </a>
+            </div>
+            <!-- 聯絡資訊與版權 -->
+            <div class="border-t border-blue-900 pt-8 mt-8 text-xs text-slate-400 space-y-2">
+                <p>台灣實體諮詢窗口：菲海樂潛 ｜ 菲律賓在地接待基地：PG島蟹老闆潛水度假村</p>
+                <p>&copy; 2026 台灣菲海樂潛 × PG島蟹老闆潛水度假村 股東直營聯合版權所有</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
